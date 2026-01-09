@@ -101,11 +101,18 @@ nav li a {
 }
 #Banner .container .btn1 {
   padding: 12px 16px;
-  width: 230px;
+  width: 240px;
 }
 #Banner .container .btn2 {
+  font-weight: 600;
+  font-size: 16px;
+  color: #ffffff;
+  background-color: transparent;
+  border-radius: 4px;
+  cursor: pointer;
   padding: 12px 16px;
   width: 200px;
+  border: 1px solid #ffffff;
 }
 #Notes {
   width: 70%;
@@ -217,4 +224,68 @@ nav li a {
   align-items: center;
   justify-content: center;
   font-size: 30px;
+}
+
+footer {
+  background-color: #001931;
+  width: 100vw;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+footer .footer-box {
+  display: flex;
+  width: 1460px;
+  justify-content: space-between;
+  /* align-items: center;
+  text-align: center; */
+  gap: 700px;
+  margin: 0px auto;
+  padding: 120px;
+}
+footer .footer-logo {
+  width: 350px;
+}
+.social p {
+  font-size: 20px;
+  font-weight: 500;
+  line-height: 28px;
+  margin-bottom: 16px;
+  color: #ffffff;
+}
+.social .link {
+  display: flex;
+  width: 60px;
+  gap: 8px;
+  justify-content: space-between;
+}
+.social .link a {
+  text-decoration: none;
+}
+.social i {
+  border-radius: 50%;
+  width: 20px;
+  height: 20px;
+  background-color: #ffffff;
+  color: #000000;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 12px;
+}
+footer .end {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  text-align: center;
+  width: 1460px;
+}
+footer .end hr {
+  margin-bottom: 20px;
+  border: 1px solid #e5e7e8;
+  opacity: 20%;
+}
+footer .end p {
+  color: #fafafa;
+  margin-bottom: 25px;
 }
