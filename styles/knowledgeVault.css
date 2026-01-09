@@ -1,0 +1,220 @@
+* {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+}
+#nav-bar {
+  display: flex;
+  justify-content: space-between;
+  gap: 346px;
+  padding: 16px 120px;
+  align-items: center;
+  border-bottom: 1px;
+}
+#nav-bar .logo {
+  width: 139px;
+  height: 60px;
+}
+#nav-bar nav {
+  width: 365px;
+  font-size: 16px;
+  line-height: 152%;
+  opacity: 90%;
+}
+nav ul {
+  display: flex;
+  justify-content: space-between;
+  gap: 32px;
+}
+nav li {
+  list-style: none;
+}
+nav li a {
+  text-decoration: none;
+}
+.btn {
+  width: 164px;
+  font-weight: 600;
+  font-size: 16px;
+  color: #ffffff;
+  border: none;
+  padding: 12px 16px;
+  border-radius: 4px;
+  background-color: #308868;
+  cursor: pointer;
+}
+
+#Banner {
+  background-image: url("../assets/hero-bg.png");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  min-height: 90vh;
+}
+#Banner .container {
+  width: 70%;
+  max-width: 1460px;
+  margin: 0px auto;
+  padding-top: 200px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+#Banner .container .EarlyAccess {
+  display: flex;
+  gap: 8px;
+  padding: 8px 12px;
+  align-items: center;
+  background-color: #ffffff;
+  border-radius: 1000px;
+  font-size: 16px;
+  font-weight: 500;
+  color: #308868;
+  margin-bottom: 28px;
+}
+#Banner .container h1 {
+  /* width: 750px; */
+  font-size: 72px;
+  font-weight: 700;
+  line-height: 84px;
+  color: #ffffff;
+  margin-bottom: 20px;
+}
+#Banner .container h1 span {
+  color: #308868;
+}
+#Banner .container .parra {
+  max-width: 600px;
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 24px;
+  color: #ffffff;
+  text-align: center;
+  margin-bottom: 32px;
+}
+#Banner .container .button {
+  display: flex;
+  justify-content: space-between;
+  flex-direction: row;
+  gap: 10px;
+  width: 465px;
+}
+#Banner .container .btn1 {
+  padding: 12px 16px;
+  width: 230px;
+}
+#Banner .container .btn2 {
+  padding: 12px 16px;
+  width: 200px;
+}
+#Notes {
+  width: 70%;
+  max-width: 1460px;
+  margin: 0px auto;
+  text-align: center;
+  align-items: center;
+}
+#Notes .Section-heading h2 {
+  padding-top: 50px;
+  font-size: 48px;
+  font-weight: 700;
+  margin-bottom: 16px;
+  color: #001931;
+}
+#Notes .Section-heading p {
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 20px;
+  margin-bottom: 50px;
+  color: #627382;
+}
+#Notes .box {
+  display: flex;
+  justify-content: center;
+  gap: 25px;
+}
+.box .card {
+  width: 340px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding-top: 25px;
+}
+.box .card i {
+  border-radius: 50%;
+  width: 50px;
+  height: 50px;
+  background-color: #f95555;
+  color: white;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 30px;
+  margin-bottom: 18px;
+}
+.box .card h3 {
+  font-size: 25px;
+  font-weight: 600;
+  color: #001931;
+  margin-bottom: 16px;
+}
+.box .card p {
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 20px;
+  margin-bottom: 20px;
+  color: #627382;
+}
+.Brain {
+  display: flex;
+  width: 70%;
+  max-width: 1460px;
+  gap: 80px;
+  margin: 130px auto;
+  align-items: center;
+}
+
+.Brain .text {
+  width: 740px;
+  margin: 105px 0px;
+}
+.text h5 {
+  font-size: 18px;
+  font-weight: 500;
+  line-height: 20px;
+  margin-bottom: 18px;
+  color: #308868;
+}
+.text h3 {
+  font-size: 48px;
+  font-weight: 700;
+  color: #001931;
+  margin-bottom: 18px;
+}
+.text .description {
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 20px;
+  margin-bottom: 40px;
+  color: #627382;
+}
+.main-point .point {
+  display: flex;
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 20px;
+  color: #001931;
+  margin-bottom: 16px;
+}
+.main-point .point i {
+  border-radius: 50%;
+  width: 29px;
+  height: 29px;
+  background-color: #30b868;
+  color: #ffffff;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 30px;
+}
